@@ -16,7 +16,7 @@ const [userInfo, setUserInfo] = useState<GitHubUser | null>(null);
  */
 const handleGitHubLogin = () => {
     const clientId = 'Ov23liMSSHUtf8WUYrmq';
-    const redirectUri = 'http://localhost:5173';
+    const redirectUri = 'https://yzzob.github.io/bytebaseDemo';
     window.location.href = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}`;
 };
 
